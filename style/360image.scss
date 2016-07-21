@@ -1,0 +1,79 @@
+@import 'style';
+
+// 360 Image =========================================
+
+.image-container{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: all-scroll;
+  height: 100%;
+  width: 100%;
+  .image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    @include filter(80%, 130%);
+  }
+  .image-active{
+    display: block;
+  }
+  .instructions{
+    color: $gold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    font-weight: 700;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    transform: rotate(-90deg) translate(-100%, 25%);
+    -webkit-transform-origin: left top;
+    width: 100vh;
+    @include no-select;
+  }
+}
+
+.yb360center{
+  background-image: url("../images/yb360center.jpg");
+}
+.yb360l1{
+  background-image: url("../images/yb360l1.jpg");
+}
+.yb360l2{
+  background-image: url("../images/yb360l2.jpg");
+}
+.yb360l3{
+  background-image: url("../images/yb360l3.jpg");
+}
+.yb360l4{
+  background-image: url("../images/yb360l4.jpg");
+}
+.yb360l5{
+  background-image: url("../images/yb360l5.jpg");
+}
+.yb360l6{
+  background-image: url("../images/yb360l6.jpg");
+}
+.yb360r1{
+  background-image: url("../images/yb360r1.jpg");
+}
+.yb360r2{
+  background-image: url("../images/yb360r2.jpg");
+}
+.yb360r3{
+  background-image: url("../images/yb360r3.jpg");
+}
+.yb360r4{
+  background-image: url("../images/yb360r4.jpg");
+}
+.yb360r5{
+  background-image: url("../images/yb360r5.jpg");
+}
+.yb360r6{
+  background-image: url("../images/yb360r6.jpg");
+}
