@@ -6,7 +6,7 @@ $(document).ready(function(){
   var $exit = $signup.find('.exit');
 
   suscribe_open = false;
-  suscribe_has_opened = false;
+  suscribe_has_opened = true;
 
   setTimeout(function(){
     if (!suscribe_has_opened){ 

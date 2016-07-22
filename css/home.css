@@ -1,0 +1,120 @@
+html, body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+.clear {
+  clear: both; }
+
+.headline {
+  font: 400 14px "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding: 30vh 0 10vh;
+  text-transform: uppercase; }
+
+.body {
+  color: #212121;
+  font: 400 14px "Roboto", sans-serif;
+  letter-spacing: 0px;
+  text-transform: none; }
+
+.center {
+  text-align: center; }
+
+.panel {
+  box-sizing: border-box;
+  padding-bottom: 15vh;
+  position: relative;
+  min-height: 100vh;
+  width: 100vw; }
+
+.panel.black {
+  background-color: #212121; }
+
+.panel.white {
+  background-color: white; }
+
+.welcome-panel {
+  background-image: url("../images/model2.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  max-height: 50vw;
+  min-height: 300px;
+  position: relative;
+  top: 0;
+  width: 100vw; }
+  .welcome-panel .logo {
+    left: 50%;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 50vw; }
+  .welcome-panel .buy-button {
+    background-color: white;
+    bottom: 10%;
+    color: #212121;
+    font: 400 14px "Roboto", sans-serif;
+    font-weight: 700;
+    left: 50%;
+    padding: 16px;
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s; }
+    .welcome-panel .buy-button:hover {
+      background-color: goldenrod;
+      color: #212121; }
+
+.process-container {
+  box-sizing: border-box;
+  margin: auto;
+  max-height: 80vw;
+  max-width: 80vw;
+  padding: 10vh;
+  position: relative; }
+  .process-container img {
+    max-height: 100%;
+    max-width: 100%; }
+  .process-container .seal {
+    border-radius: 50%;
+    color: goldenrod;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10vw;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .process-container .seal.one {
+    left: 3.5%; }
+  .process-container .seal.two {
+    left: 48%;
+    margin-top: -2%; }
+
+.grid-container {
+  box-sizing: border-box;
+  padding: 10vw;
+  width: 100%; }
+  .grid-container .grid-image {
+    box-sizing: border-box;
+    cursor: pointer;
+    float: left;
+    height: 300px;
+    padding: 5vw;
+    transition: all 0.2s;
+    width: 300px;
+    -webkit-filter: grayscale(100%) contrast(110%);
+    filter: grayscale(100%) contrast(110%); }
+    .grid-container .grid-image:hover {
+      -webkit-filter: grayscale(30%) contrast(110%);
+      filter: grayscale(30%) contrast(110%); }
